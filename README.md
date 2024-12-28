@@ -1,4 +1,4 @@
-# react-task-manager
+# To-Do List application
 A sleek and functional To-Do List application built using React. This app allows users to efficiently manage their tasks by adding, updating, and deleting items. With an intuitive interface and real-time updates, it helps boost productivity and keeps users organized.
 
 Features Add Tasks: Add tasks with specific deadlines using a date and time picker. Set Reminders: Get notified with audio reminders when a task is due. Edit Tasks: Modify task descriptions and deadlines. Reorder Tasks: Move tasks up or down the list to prioritize effectively. Delete Tasks: Remove completed or unwanted tasks. Highlight Active Task: Visual indicator for tasks with active reminders.
