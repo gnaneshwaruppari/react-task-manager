@@ -1,0 +1,133 @@
+/* General Container */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #F8F1F1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.title {
+  font-size: 2rem;
+  color: #11698E;
+  margin-bottom: 20px;
+}
+
+/* Input Container */
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.task-input,
+.time-input {
+  width: 45%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #11698E;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.task-input:focus,
+.time-input:focus {
+  border-color: #16C79A;
+  outline: none;
+  box-shadow: 0 0 5px rgba(22, 199, 154, 0.5);
+}
+
+.add-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #11698E;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #19456B;
+}
+
+/* Task List */
+.tasks-title {
+  font-size: 1.5rem;
+  color: #11698E;
+  margin-bottom: 10px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+}
+
+.active-task {
+  background-color: #16C79A;
+  color: white;
+}
+
+/* Button Group */
+.task-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.move-btn {
+  background-color: #11698E;
+  color: white;
+}
+
+.move-btn:hover {
+  background-color: #19456B;
+}
+
+.edit-btn {
+  background-color: #16C79A;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #11698E;
+}
+
+.delete-btn {
+  background-color: #FF4D4D;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #CC0000;
+}
